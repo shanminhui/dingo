@@ -11,12 +11,12 @@ nav{
 nav ul{
     list-style: none;
     margin:0;
+    float: right;
 }
 
-nav ul li{
+nav ul li,nav .logo{
     display: inline-block;
     line-height: 50px;
-    float:right;
     margin-left:20px;
 }
 
@@ -25,10 +25,12 @@ nav ul li a{
     text-decoration: none;
     display: inline-block;
     height: inherit;
+    color: #fff;
 }
 
 nav ul li.logo{
     float: left;
+    padding: 10px;
 }
 
 #banner .inner{
@@ -42,6 +44,7 @@ nav ul li.logo{
     margin: 0;
 }
 
+
 button {
     border:none;
     background: #333;
@@ -52,10 +55,73 @@ button {
     padding:14px 60px;
 }
 #banner .inner .more{
-    margin-top:300px;
+    margin-top:280px;
 }
 
 .sub-heading{
     line-height: 30px;
     margin:30px;
+    font-size: 18px;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.logo a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.active{
+    border-bottom: 4px solid #fff;
+}
+
+h1{
+    padding: 12px;
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+}
+
+h2{
+   font-size: 20px;
+}
+
+.hr{
+    width: 100%;
+    height: 2px;
+    margin: 20px auto;
+}
+
+.wrapper{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.green-section{
+    text-align: center;
+    background: #1fe2db;
+    color:#fff;
+    padding: 100px 0;
+}
+
+.green-section .hr{
+    background: #1ac6e2;
+    width: 60%;
+
+}
+
+.green-section .icon-group .icon{
+    display: inline-block;
+    height:80px;
+    width: 80px;
+    border: 1px solid #0ab5e2;
+    transform:rotate(45deg);
+    margin:20px;
+}
+
+.icon-group{
+    margin-top: 60px;
 }
